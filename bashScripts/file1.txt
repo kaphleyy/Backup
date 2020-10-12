@@ -1,0 +1,1 @@
+I am using keyboard as stdinput and cat converts this stdinput to stdoutput by ng the stdin to a file file1.txt press ctrl + D to exit and save
