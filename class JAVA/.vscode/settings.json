@@ -4,5 +4,11 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'monospace','firacode'",
+    "editor.lineHeight": 25,
+    "editor.formatOnSave": true
 }

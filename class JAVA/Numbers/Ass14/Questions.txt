@@ -1,0 +1,11 @@
+What will be the output of the following java statement? 
+Integer i = new Integer(257);
+byte x = i.byteValue();
+System.out.print(x);
+
+
+
+An expression involving byte, int and literal numbers is promoted to which of these?
+a) int  b) byte c) long d) float
+
+
