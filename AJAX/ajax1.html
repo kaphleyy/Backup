@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax1 plane </title>
+</head>
+<body>
+<button id = "button" >Get text file</button>
+<p id ="paragraph"> searcing for change </p>
+
+<script>
+
+    document.getElementById('button').addEventListener('click', loadText );
+var para = document.getElementById('paragraph');
+    function loadText() {
+let xhr = new XMLHttpRequest();
+xhr.open('GET', '/sample.txt');
+xhr.send();
+
+// 4. This will be called after the response is received
+// xhr.onload = function() {
+//   if (xhr.status == 200) {
+//   }
+// };
+xhr.onreadystatechange = function () {
+    if(this.readyState === 4 && this.status === 200) {
+        console.log("State is ready guys");
+    }
+}
+  }
+        
+    
+    </script>
+</body>
+</html>
